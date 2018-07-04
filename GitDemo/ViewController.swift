@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         print(message)
+        print(reverseString(text: "Demo"))
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,6 +25,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func reverseString(text : String) -> String {
+        return String(text.reversed())
+    }
 
 }
 
