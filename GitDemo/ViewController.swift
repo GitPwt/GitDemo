@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         print(reverseString(text: "Demo"))
         
         lblReversed.text = reverseString(text: "Test")
+        lblReversed.text = reverseString(text: "Demo")
     }
 
     override func didReceiveMemoryWarning() {
